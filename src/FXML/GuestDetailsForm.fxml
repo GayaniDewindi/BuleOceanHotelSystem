@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="374.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GuestDetailsController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="778.0" layoutX="-10.0" layoutY="8.0" opacity="0.71" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/guest.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="246.0" layoutY="8.0" prefHeight="389.0" prefWidth="266.0" style="-fx-background-color: #f7f1e3;">
+         <children>
+            <Label layoutX="14.0" layoutY="86.0" text="Guest ID:">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="127.0" text="Name :">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="173.0" text="Address :">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="223.0" text="Contact :">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="270.0" text="Duration :">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="96.0" layoutY="86.0" />
+            <JFXTextField layoutX="78.0" layoutY="129.0" />
+            <JFXTextField layoutX="96.0" layoutY="225.0" />
+            <JFXTextField layoutX="96.0" layoutY="182.0" />
+            <JFXTextField layoutX="106.0" layoutY="270.0" />
+            <Text layoutX="63.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Guest Details">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Text>
+            <JFXButton buttonType="RAISED" layoutX="119.0" layoutY="323.0" onAction="#OnAddMealPackage" prefHeight="44.0" prefWidth="135.0" style="-fx-background-color: green;" text="Resrve" textFill="#e1dada">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <ImageView fitHeight="63.0" fitWidth="63.0" onMouseClicked="#OnClickedAvailable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/images.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

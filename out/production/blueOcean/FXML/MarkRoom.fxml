@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MarkRoomController">
+   <children>
+      <Text layoutX="201.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maintenance">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Text>
+      <Label layoutX="81.0" layoutY="130.0" text="Room ID :">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="175.0" layoutY="130.0" />
+      <JFXButton buttonType="RAISED" graphicTextGap="8.0" layoutX="260.0" layoutY="229.0" onAction="#OnActionSuccessful" prefHeight="60.0" prefWidth="301.0" style="-fx-background-color: green; -fx-background-radius: 10;" text="Mark As Not Avaiable">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="60.0" fitWidth="56.0" layoutY="1.0" onMouseClicked="#goDetails" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/images.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

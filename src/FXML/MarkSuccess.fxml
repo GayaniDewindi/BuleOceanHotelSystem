@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="82.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MarkSuccessController">
+   <children>
+      <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark Room Successfully">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="65.0" fitWidth="91.0" layoutX="349.0" layoutY="9.0" onMouseClicked="#goDietails" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/WhatsApp%20Image%202022-09-10%20at%203.53.55%20AM.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

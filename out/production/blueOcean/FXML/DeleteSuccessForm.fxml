@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="114.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DeleteSuccessForm">
+   <children>
+      <Label layoutX="43.0" layoutY="18.0" prefHeight="39.0" prefWidth="291.0" text=" Delete Successful.." textFill="#141111">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="48.0" fitWidth="73.0" layoutX="134.0" layoutY="57.0" onMouseClicked="#onClickDeleteSucessfully" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/WhatsApp%20Image%202022-09-10%20at%203.53.55%20AM.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="127.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddSuccessController">
+   <children>
+      <Text layoutX="74.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Successfully..!" wrappingWidth="229.36962890625">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="63.0" fitWidth="97.0" layoutX="148.0" layoutY="50.0" onMouseClicked="#goAvailable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/WhatsApp%20Image%202022-09-10%20at%203.53.55%20AM.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

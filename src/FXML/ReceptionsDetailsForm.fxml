@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReceptionsDetailsController">
+   <children>
+      <ImageView fitHeight="412.0" fitWidth="614.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/images%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="105.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Receptionsti Details">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="287.0" layoutY="147.0" onAction="#goRoom" opacity="0.9" prefHeight="55.0" prefWidth="252.0" style="-fx-background-color: green; -fx-background-radius: 20;" text="Reserve a Room" textFill="#dddbdb">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="287.0" layoutY="243.0" onAction="#OnActionMarkRoom" opacity="0.9" prefHeight="55.0" prefWidth="283.0" style="-fx-background-color: green; -fx-background-radius: 20;" text="Mark room in maitanance" textFill="#dddbdb">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="44.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/images.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#goReceptionnstiForm" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="55.0" fitWidth="70.0" layoutX="544.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Screenshot%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ModifyPackages">
+   <children>
+      <ImageView fitHeight="425.0" fitWidth="690.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/9878.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/images.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="73.0" layoutX="564.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Screenshot%20(1).png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="354.0" layoutY="139.0" onAction="#onActionToAddMeal" prefHeight="48.0" prefWidth="254.0" style="-fx-background-color: green; -fx-background-radius: 20;" text="Add Meal Package" textFill="#eee4e4">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="354.0" layoutY="213.0" onAction="#onActionToModify" prefHeight="48.0" prefWidth="254.0" style="-fx-background-color: green; -fx-background-radius: 20;" text="Modify Meal Package" textFill="#eee4e4">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="354.0" layoutY="294.0" onAction="#onActionToDelete" prefHeight="48.0" prefWidth="254.0" style="-fx-background-color: green; -fx-background-radius: 20;" text="Delete Meal Package" textFill="#eee4e4">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

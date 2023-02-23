@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="209.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SavaSuccessFormController">
+   <children>
+      <Label layoutX="56.0" layoutY="71.0" text="Successfully Saved..!">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="91.0" fitWidth="83.0" layoutX="424.0" layoutY="50.0" onMouseClicked="#SuccessfullySavedonClocked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/WhatsApp%20Image%202022-09-10%20at%203.53.55%20AM.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MealPackgeForm">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="609.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/9878.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#02124d" layoutX="66.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: 20;" text="Meal Package" wrappingWidth="318.2890625">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="264.0" layoutY="121.0" onAction="#OnActionAddNewMeal" opacity="0.9" prefHeight="48.0" prefWidth="257.0" style="-fx-background-color: green; -fx-background-radius: 20;" text="Add New Meal Package" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="320.0" layoutY="200.0" onAction="#gotoMealPackage" opacity="0.9" prefHeight="48.0" prefWidth="257.0" style="-fx-background-color: green; -fx-background-radius: 20;" text="Modify Meal Package" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="273.0" layoutY="280.0" onAction="#OnActionDeletePackages" opacity="0.9" prefHeight="48.0" prefWidth="257.0" style="-fx-background-color: green; -fx-background-radius: 20;" text="Delete Meal Package" textFill="#e4dfdf">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="48.0" fitWidth="56.0" onMouseClicked="#goRoomDetails" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/images.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="85.0" layoutX="507.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Screenshot%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

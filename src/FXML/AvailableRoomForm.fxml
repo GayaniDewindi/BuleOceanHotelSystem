@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AvailableRoomController">
+   <children>
+      <ImageView fitHeight="118.0" fitWidth="188.0" layoutX="62.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/ww3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="210.0" layoutX="357.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/s3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="188.0" layoutX="357.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/ww4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="31.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/ww2.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="70.0" layoutY="154.0" onAction="#OnActiongoGuestDetails" prefHeight="37.0" prefWidth="188.0" style="-fx-background-color: green; -fx-background-radius: 15;" text="Reserve this">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="368.0" layoutY="154.0" onAction="#OnActionGoGuest" prefHeight="37.0" prefWidth="188.0" style="-fx-background-color: green; -fx-background-radius: 15;" text="Reserve this">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="379.0" layoutY="352.0" onAction="#OnGeestDetals" prefHeight="37.0" prefWidth="188.0" style="-fx-background-color: green; -fx-background-radius: 15;" text="Reserve this">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="37.0" layoutY="352.0" onAction="#OnActionGuest" prefHeight="37.0" prefWidth="188.0" style="-fx-background-color: green; -fx-background-radius: 15;" text="Reserve this">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="51.0" fitWidth="62.0" layoutX="6.0" layoutY="7.0" onMouseClicked="#goReceptions" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/images.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
